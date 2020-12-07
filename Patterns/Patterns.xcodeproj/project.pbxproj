@@ -15,6 +15,10 @@
 		2442AB02257E48C50031E5BD /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2442AB01257E48C50031E5BD /* Adapter.swift */; };
 		2442AB06257E55590031E5BD /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2442AB05257E55590031E5BD /* Bridge.swift */; };
 		2442AB09257E59B80031E5BD /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2442AB08257E59B80031E5BD /* Composite.swift */; };
+		2442AB0E257E915F0031E5BD /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2442AB0D257E915F0031E5BD /* Decorator.swift */; };
+		2442AB12257E9CBB0031E5BD /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2442AB11257E9CBB0031E5BD /* Facade.swift */; };
+		2442AB15257E9FC50031E5BD /* Flyweight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2442AB14257E9FC50031E5BD /* Flyweight.swift */; };
+		2442AB19257EA1C00031E5BD /* Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2442AB18257EA1C00031E5BD /* Proxy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +43,10 @@
 		2442AB01257E48C50031E5BD /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
 		2442AB05257E55590031E5BD /* Bridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
 		2442AB08257E59B80031E5BD /* Composite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composite.swift; sourceTree = "<group>"; };
+		2442AB0D257E915F0031E5BD /* Decorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
+		2442AB11257E9CBB0031E5BD /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
+		2442AB14257E9FC50031E5BD /* Flyweight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flyweight.swift; sourceTree = "<group>"; };
+		2442AB18257EA1C00031E5BD /* Proxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proxy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +79,7 @@
 		2442AAE6257BFBEF0031E5BD /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				2442AB0C257E90EB0031E5BD /* Decorator, Facade, Flyweight, Proxy */,
 				2442AB00257E48930031E5BD /* Adapter, Bridge, Composite */,
 				2442AAF8257E3F710031E5BD /* Builder, Prototype, Singleton */,
 				2442AAF0257BFC250031E5BD /* factory */,
@@ -105,6 +114,17 @@
 				2442AB08257E59B80031E5BD /* Composite.swift */,
 			);
 			path = "Adapter, Bridge, Composite";
+			sourceTree = "<group>";
+		};
+		2442AB0C257E90EB0031E5BD /* Decorator, Facade, Flyweight, Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				2442AB0D257E915F0031E5BD /* Decorator.swift */,
+				2442AB11257E9CBB0031E5BD /* Facade.swift */,
+				2442AB14257E9FC50031E5BD /* Flyweight.swift */,
+				2442AB18257EA1C00031E5BD /* Proxy.swift */,
+			);
+			path = "Decorator, Facade, Flyweight, Proxy";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,10 +185,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2442AAFA257E3FAD0031E5BD /* Prototype.swift in Sources */,
+				2442AB12257E9CBB0031E5BD /* Facade.swift in Sources */,
 				2442AB02257E48C50031E5BD /* Adapter.swift in Sources */,
 				2442AB06257E55590031E5BD /* Bridge.swift in Sources */,
+				2442AB19257EA1C00031E5BD /* Proxy.swift in Sources */,
+				2442AB15257E9FC50031E5BD /* Flyweight.swift in Sources */,
 				2442AAF6257BFD130031E5BD /* AbstractFactory.swift in Sources */,
 				2442AAF2257BFC340031E5BD /* Factory.swift in Sources */,
+				2442AB0E257E915F0031E5BD /* Decorator.swift in Sources */,
 				2442AB09257E59B80031E5BD /* Composite.swift in Sources */,
 				2442AAFE257E46960031E5BD /* Singleton.swift in Sources */,
 				2442AAE8257BFBEF0031E5BD /* main.swift in Sources */,
