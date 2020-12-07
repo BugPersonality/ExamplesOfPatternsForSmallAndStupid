@@ -32,10 +32,6 @@ class Joystick {
     }
 }
 
-class SmartJpystick: Joystick{
-    
-}
-
 class SmartJoystick: Joystick{
     func sendSmartButton(){
         console!.ExcuteCommand(cmd: "X")
