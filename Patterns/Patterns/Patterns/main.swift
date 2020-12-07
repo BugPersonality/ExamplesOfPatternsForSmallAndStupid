@@ -63,3 +63,46 @@ var pngFile = File(fileName: "file.png")
 diskB.addElement(file: txtFile)
 diskC.addElement(file: pngFile)
 fileSystem.display()
+print()
+
+//Decorator
+print("Decorator: ")
+var notifier: INotificator = BaseNotificatorDecorator(notificator: nil)
+var needSms: Bool = true
+var needTelegram: Bool = true
+var needDiscord: Bool = true
+if needSms{
+    notifier = SmsDecorator(notificator: notifier)
+}
+if needTelegram{
+    notifier = TelegramDecorator(notificator: notifier)
+}
+if needDiscord{
+    notifier = DiscordDecorator(notificator: notifier)
+}
+notifier.send(text: "hello world!")
+print()
+
+//Facade
+print("Facade: ")
+var ide = VisualStudioFacade()
+ide.CreateCode()
+ide.run()
+ide.stop()
+print()
+
+//Flyweight
+print("Flyweight: ")
+
+var factory = FactoryExercise()
+var ex = factory.get(id: 2)
+var workout = Workout(ex: ex)
+workout.doIt()
+print()
+
+//Proxy
+print("Proxy: ")
+var downloader = CachedDownloader(downloader: YouTubeDownloader())
+var a = downloader.download(url: "www.pornohub")
+var b = downloader.download(url: "www.")
+var c = downloader.download(url: "www.")
