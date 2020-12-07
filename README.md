@@ -1,5 +1,7 @@
 # ExamplesOfPatternsForSmallAndStupid
+
 ## __('o') |  o_o'   'o_o  | ('o')__
+
 ### Implementation examples [here](/Patterns/Patterns/main.swift)
 
 1. [Factory](/Patterns/Patterns/factory/Factory.swift)
