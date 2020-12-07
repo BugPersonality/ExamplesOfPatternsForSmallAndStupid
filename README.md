@@ -1,6 +1,6 @@
 # ExamplesOfPatternsForSmallAndStupid
 ## __('o') |  o_o'   'o_o  | ('o')__
-### [Implementation examples](/Patterns/Patterns/main.swift)
+### Implementation examples [here](/Patterns/Patterns/main.swift)
 
 1. [Factory](/Patterns/Patterns/factory/Factory.swift)
 
@@ -16,4 +16,4 @@
 
 7. [Composite](/Patterns/Patterns/Adapter%2C%20Bridge%2C%20Composite/Composite.swift)
 
-##__('o') |  o_o'   'o_o  | ('o')__
+## __('o') |  o_o'   'o_o  | ('o')__
