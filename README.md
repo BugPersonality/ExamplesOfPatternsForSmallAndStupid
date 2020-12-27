@@ -38,12 +38,12 @@
 
 17. [Observer](https://github.com/BugPersonality/ExamplesOfPatternsForSmallAndStupid/blob/main/Patterns/Patterns/Mediator%2C%20Observer%2C%20State%2C%20Strategy%2C%20Template%20Method%2C%20Visitor/Observer.swift) | [Ссылка на refactoring.guru](https://refactoring.guru/ru/design-patterns/observer)
 
-18. [Proxy](/Patterns/Patterns/Decorator%2C%20Facade%2C%20Flyweight%2C%20Proxy/Proxy.swift) | [Ссылка на refactoring.guru](https://refactoring.guru/ru/design-patterns/proxy)
+18. [State](https://github.com/BugPersonality/ExamplesOfPatternsForSmallAndStupid/blob/main/Patterns/Patterns/Mediator%2C%20Observer%2C%20State%2C%20Strategy%2C%20Template%20Method%2C%20Visitor/State.swift) | [Ссылка на refactoring.guru](https://refactoring.guru/ru/design-patterns/state)
 
-19. [Proxy](/Patterns/Patterns/Decorator%2C%20Facade%2C%20Flyweight%2C%20Proxy/Proxy.swift) | [Ссылка на refactoring.guru](https://refactoring.guru/ru/design-patterns/proxy)
+19. [Strategy](https://github.com/BugPersonality/ExamplesOfPatternsForSmallAndStupid/blob/main/Patterns/Patterns/Mediator%2C%20Observer%2C%20State%2C%20Strategy%2C%20Template%20Method%2C%20Visitor/Strategy.swift) | [Ссылка на refactoring.guru](https://refactoring.guru/ru/design-patterns/strategy)
 
-20. [Proxy](/Patterns/Patterns/Decorator%2C%20Facade%2C%20Flyweight%2C%20Proxy/Proxy.swift) | [Ссылка на refactoring.guru](https://refactoring.guru/ru/design-patterns/proxy)
+20. [emplateMethod](https://github.com/BugPersonality/ExamplesOfPatternsForSmallAndStupid/blob/main/Patterns/Patterns/Mediator%2C%20Observer%2C%20State%2C%20Strategy%2C%20Template%20Method%2C%20Visitor/TemplateMethod.swift) | [Ссылка на refactoring.guru](https://refactoring.guru/ru/design-patterns/template-method)
 
-21. [Proxy](/Patterns/Patterns/Decorator%2C%20Facade%2C%20Flyweight%2C%20Proxy/Proxy.swift) | [Ссылка на refactoring.guru](https://refactoring.guru/ru/design-patterns/proxy)
+21. [Visitor](https://github.com/BugPersonality/ExamplesOfPatternsForSmallAndStupid/blob/main/Patterns/Patterns/Mediator%2C%20Observer%2C%20State%2C%20Strategy%2C%20Template%20Method%2C%20Visitor/Visitor.swift) | [Ссылка на refactoring.guru](https://refactoring.guru/ru/design-patterns/visitor)
 
 ## __('o') |  o_o'   'o_o  | ('o')__
