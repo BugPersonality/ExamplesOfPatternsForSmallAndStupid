@@ -26,24 +26,24 @@
 
 11. [Proxy](/Patterns/Patterns/Decorator%2C%20Facade%2C%20Flyweight%2C%20Proxy/Proxy.swift) | [Ссылка на refactoring.guru](https://refactoring.guru/ru/design-patterns/proxy)
 
-12. coming soon
+12. [ChainOfResponsibility](https://github.com/BugPersonality/ExamplesOfPatternsForSmallAndStupid/blob/main/Patterns/Patterns/chainOfResponsibility%2C%20command%2C%20memento%2C%20iterator/ChainOfResponsibility.swift) | [Ссылка на refactoring.guru](https://refactoring.guru/ru/design-patterns/chain-of-responsibility)
 
-13. coming soon
+13. [Command](https://github.com/BugPersonality/ExamplesOfPatternsForSmallAndStupid/blob/main/Patterns/Patterns/chainOfResponsibility%2C%20command%2C%20memento%2C%20iterator/Command.swift) | [Ссылка на refactoring.guru](https://refactoring.guru/ru/design-patterns/command)
 
-14. coming soon
+14. [Iterator](https://github.com/BugPersonality/ExamplesOfPatternsForSmallAndStupid/blob/main/Patterns/Patterns/chainOfResponsibility%2C%20command%2C%20memento%2C%20iterator/Iterator.swift) | [Ссылка на refactoring.guru](https://refactoring.guru/ru/design-patterns/iterator)
 
-15. coming soon
+15. [Memento](https://github.com/BugPersonality/ExamplesOfPatternsForSmallAndStupid/blob/main/Patterns/Patterns/chainOfResponsibility%2C%20command%2C%20memento%2C%20iterator/Memento.swift) | [Ссылка на refactoring.guru](https://refactoring.guru/ru/design-patterns/memento)
 
-16. coming soon
+16. [Mediator](https://github.com/BugPersonality/ExamplesOfPatternsForSmallAndStupid/blob/main/Patterns/Patterns/Mediator%2C%20Observer%2C%20State%2C%20Strategy%2C%20Template%20Method%2C%20Visitor/Mediator.swift) | [Ссылка на refactoring.guru](https://refactoring.guru/ru/design-patterns/mediator)
 
-17. coming soon
+17. [Observer](https://github.com/BugPersonality/ExamplesOfPatternsForSmallAndStupid/blob/main/Patterns/Patterns/Mediator%2C%20Observer%2C%20State%2C%20Strategy%2C%20Template%20Method%2C%20Visitor/Observer.swift) | [Ссылка на refactoring.guru](https://refactoring.guru/ru/design-patterns/observer)
 
-18. coming soon
+18. [Proxy](/Patterns/Patterns/Decorator%2C%20Facade%2C%20Flyweight%2C%20Proxy/Proxy.swift) | [Ссылка на refactoring.guru](https://refactoring.guru/ru/design-patterns/proxy)
 
-19. coming soon
+19. [Proxy](/Patterns/Patterns/Decorator%2C%20Facade%2C%20Flyweight%2C%20Proxy/Proxy.swift) | [Ссылка на refactoring.guru](https://refactoring.guru/ru/design-patterns/proxy)
 
-20. coming soon
+20. [Proxy](/Patterns/Patterns/Decorator%2C%20Facade%2C%20Flyweight%2C%20Proxy/Proxy.swift) | [Ссылка на refactoring.guru](https://refactoring.guru/ru/design-patterns/proxy)
 
-21.coming soon
+21. [Proxy](/Patterns/Patterns/Decorator%2C%20Facade%2C%20Flyweight%2C%20Proxy/Proxy.swift) | [Ссылка на refactoring.guru](https://refactoring.guru/ru/design-patterns/proxy)
 
 ## __('o') |  o_o'   'o_o  | ('o')__
