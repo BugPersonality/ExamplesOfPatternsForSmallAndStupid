@@ -1,5 +1,5 @@
 import Foundation
-
+// пример с карточной игрой 
 protocol IConsole {
     func ExcuteCommand(cmd: String)
 }

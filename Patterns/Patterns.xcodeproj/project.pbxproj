@@ -19,6 +19,16 @@
 		2442AB12257E9CBB0031E5BD /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2442AB11257E9CBB0031E5BD /* Facade.swift */; };
 		2442AB15257E9FC50031E5BD /* Flyweight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2442AB14257E9FC50031E5BD /* Flyweight.swift */; };
 		2442AB19257EA1C00031E5BD /* Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2442AB18257EA1C00031E5BD /* Proxy.swift */; };
+		2442AB65258161DF0031E5BD /* ChainOfResponsibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2442AB64258161DF0031E5BD /* ChainOfResponsibility.swift */; };
+		2442AB69258161F00031E5BD /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2442AB68258161F00031E5BD /* Command.swift */; };
+		2442AB6C258161FD0031E5BD /* Iterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2442AB6B258161FD0031E5BD /* Iterator.swift */; };
+		2442AB6F2581620B0031E5BD /* Memento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2442AB6E2581620B0031E5BD /* Memento.swift */; };
+		2492B76F25855E2700EB5987 /* Mediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2492B76E25855E2700EB5987 /* Mediator.swift */; };
+		2492B773258566E300EB5987 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2492B772258566E300EB5987 /* Observer.swift */; };
+		2492B776258566F300EB5987 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2492B775258566F300EB5987 /* State.swift */; };
+		2492B7792585670F00EB5987 /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2492B7782585670F00EB5987 /* Strategy.swift */; };
+		2492B77C2585672C00EB5987 /* TemplateMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2492B77B2585672C00EB5987 /* TemplateMethod.swift */; };
+		2492B77F2585673A00EB5987 /* Visitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2492B77E2585673A00EB5987 /* Visitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +57,16 @@
 		2442AB11257E9CBB0031E5BD /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
 		2442AB14257E9FC50031E5BD /* Flyweight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flyweight.swift; sourceTree = "<group>"; };
 		2442AB18257EA1C00031E5BD /* Proxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proxy.swift; sourceTree = "<group>"; };
+		2442AB64258161DF0031E5BD /* ChainOfResponsibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainOfResponsibility.swift; sourceTree = "<group>"; };
+		2442AB68258161F00031E5BD /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		2442AB6B258161FD0031E5BD /* Iterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iterator.swift; sourceTree = "<group>"; };
+		2442AB6E2581620B0031E5BD /* Memento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memento.swift; sourceTree = "<group>"; };
+		2492B76E25855E2700EB5987 /* Mediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mediator.swift; sourceTree = "<group>"; };
+		2492B772258566E300EB5987 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		2492B775258566F300EB5987 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		2492B7782585670F00EB5987 /* Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
+		2492B77B2585672C00EB5987 /* TemplateMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateMethod.swift; sourceTree = "<group>"; };
+		2492B77E2585673A00EB5987 /* Visitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +99,8 @@
 		2442AAE6257BFBEF0031E5BD /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				2492B76D25855D4000EB5987 /* Mediator, Observer, State, Strategy, Template Method, Visitor */,
+				2442AB63258161AE0031E5BD /* chainOfResponsibility, command, memento, iterator */,
 				2442AB0C257E90EB0031E5BD /* Decorator, Facade, Flyweight, Proxy */,
 				2442AB00257E48930031E5BD /* Adapter, Bridge, Composite */,
 				2442AAF8257E3F710031E5BD /* Builder, Prototype, Singleton */,
@@ -125,6 +147,30 @@
 				2442AB18257EA1C00031E5BD /* Proxy.swift */,
 			);
 			path = "Decorator, Facade, Flyweight, Proxy";
+			sourceTree = "<group>";
+		};
+		2442AB63258161AE0031E5BD /* chainOfResponsibility, command, memento, iterator */ = {
+			isa = PBXGroup;
+			children = (
+				2442AB64258161DF0031E5BD /* ChainOfResponsibility.swift */,
+				2442AB68258161F00031E5BD /* Command.swift */,
+				2442AB6B258161FD0031E5BD /* Iterator.swift */,
+				2442AB6E2581620B0031E5BD /* Memento.swift */,
+			);
+			path = "chainOfResponsibility, command, memento, iterator";
+			sourceTree = "<group>";
+		};
+		2492B76D25855D4000EB5987 /* Mediator, Observer, State, Strategy, Template Method, Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				2492B76E25855E2700EB5987 /* Mediator.swift */,
+				2492B772258566E300EB5987 /* Observer.swift */,
+				2492B775258566F300EB5987 /* State.swift */,
+				2492B7782585670F00EB5987 /* Strategy.swift */,
+				2492B77B2585672C00EB5987 /* TemplateMethod.swift */,
+				2492B77E2585673A00EB5987 /* Visitor.swift */,
+			);
+			path = "Mediator, Observer, State, Strategy, Template Method, Visitor";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,16 +230,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2492B7792585670F00EB5987 /* Strategy.swift in Sources */,
+				2492B76F25855E2700EB5987 /* Mediator.swift in Sources */,
+				2492B773258566E300EB5987 /* Observer.swift in Sources */,
 				2442AAFA257E3FAD0031E5BD /* Prototype.swift in Sources */,
 				2442AB12257E9CBB0031E5BD /* Facade.swift in Sources */,
 				2442AB02257E48C50031E5BD /* Adapter.swift in Sources */,
+				2442AB6C258161FD0031E5BD /* Iterator.swift in Sources */,
+				2442AB65258161DF0031E5BD /* ChainOfResponsibility.swift in Sources */,
 				2442AB06257E55590031E5BD /* Bridge.swift in Sources */,
 				2442AB19257EA1C00031E5BD /* Proxy.swift in Sources */,
 				2442AB15257E9FC50031E5BD /* Flyweight.swift in Sources */,
+				2492B776258566F300EB5987 /* State.swift in Sources */,
 				2442AAF6257BFD130031E5BD /* AbstractFactory.swift in Sources */,
+				2492B77C2585672C00EB5987 /* TemplateMethod.swift in Sources */,
 				2442AAF2257BFC340031E5BD /* Factory.swift in Sources */,
 				2442AB0E257E915F0031E5BD /* Decorator.swift in Sources */,
+				2492B77F2585673A00EB5987 /* Visitor.swift in Sources */,
 				2442AB09257E59B80031E5BD /* Composite.swift in Sources */,
+				2442AB69258161F00031E5BD /* Command.swift in Sources */,
+				2442AB6F2581620B0031E5BD /* Memento.swift in Sources */,
 				2442AAFE257E46960031E5BD /* Singleton.swift in Sources */,
 				2442AAE8257BFBEF0031E5BD /* main.swift in Sources */,
 			);

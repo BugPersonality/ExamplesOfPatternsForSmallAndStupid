@@ -20,7 +20,7 @@ class Button: IElement{
     }
     
     func clone() -> IElement {
-        return self
+        return Button(other: self)
     }
     
     func info() -> String {
